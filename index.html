@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Example</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="top">
+                <button class="new_data" onclick="NewData()">
+                    <div class="data_content">
+                        <img src="./images/img1.svg" alt="" class="img1">
+                        <p>New data</p>
+                    </div>
+                    <img src="./images/img2.svg" alt="" class="img2">
+                </button>
+            </div>
+            <ol id="list">
+
+            </ol>
+            <div>
+                <button class="clear" onclick="ClearAllData()">
+                    Clear all data
+                </button>
+            </div>
+        </div>
+    </div>
+    <button id="toggle" onclick="toggleSidebar()">
+        >
+    </button>
+    
+    <div class="main">
+        <p id="paragraph">
+
+        </p>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
